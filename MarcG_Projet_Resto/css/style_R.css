@@ -1,0 +1,489 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding-top:20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Britney-Regular';
+    font-weight: 400;
+    background: rgb(153, 215, 38);
+    width:100%;
+    max-width: 1920px;
+    margin-bottom:15px;
+}
+
+.infos h3{
+    font-family:'Britney-Regular';
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.accroche{
+    font-size:15px;
+}
+
+header h2{
+    color:rgb(228, 228, 228);
+    text-shadow: 3px 5px 3px rgb(0, 0, 0);
+    font-family: 'Britney-Light';
+}
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    max-width:1920px;
+    padding-bottom: 15px;
+    padding-left:100px;
+    padding-right:100px;
+    }
+
+.nav a{
+    padding-right: 30px;
+    text-decoration: none;
+    color:rgb(9, 91, 31);
+    font-family: 'Britney-Regular';
+    transition: 1s;
+}
+
+.nav-gauche{
+    display:flex;
+    max-width:30%;
+    font-size: 50px;
+    text-align:center;
+    font-weight: 700;
+}
+
+
+.tomato-icon{
+    height:50px;
+    margin-bottom:10px;
+}
+
+.nav-droite{
+    max-width:50%;
+}
+
+
+.nav-droite p{
+    color:rgb(9, 91, 31);
+}
+
+.nav-droite a:hover {
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    padding-right: 50px;
+}
+
+.hero{
+    background-image: url(../img/resto-hero.jpg);
+    background-blend-mode:darken;
+    background-size:cover;
+    background-position: center;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+
+
+.tomato-hero{
+    width:20%;
+
+    }
+
+    /* ALL CONTAINERS HERE */
+
+    .container{
+        max-width: 1920;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+    }
+
+    .container-small{
+        width:900px;
+        padding: 20px 10px;
+        border: solid 3px rgb(9, 91, 31);
+        box-shadow: 6px 7px 0px rgb(9, 91, 31);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255)
+    }
+
+
+    .container-small h4{
+        font-size:14px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container-mid{
+        width:900;
+        max-width: 90%;
+    }
+
+    .container-mid p{
+        margin-bottom:10px;
+    }
+    
+    .container-mid h2{
+        font-weight: 100;
+        font-size:25px;
+        color:rgb(9, 91, 31);
+        margin-bottom:80px;
+        font-family:'Britney-Regular';
+        box-shadow: 6px 9px 0px rgb(9, 91, 31);
+        border: solid 3px rgb(9, 91, 31);
+        border-radius: 10px;
+        width:50%;
+        background-color: white;
+    }
+
+    /*shop*/
+
+    /* PARENT FLEX AND CARD */
+.shop{
+    display:flex;
+    margin-right: auto;
+    margin-left:auto;
+    gap:10px;
+
+}
+
+/* regular cards */
+
+.card{
+    width:calc(100% / 3 - 20px);
+    text-align:center;
+    margin-bottom:20px;
+    transition: 1s;
+    border: solid 3px rgb(9, 91, 31);
+    box-shadow: 6px 7px 0px rgb(9, 91, 31);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255)
+}
+
+
+.infos{
+    padding-left:10px;
+}
+
+.infos p{
+color:rgb(0, 0, 0);
+margin-bottom:20px;
+}
+
+.infos h3{
+    padding-top: 10px;
+    margin-bottom:10px;
+    color:rgb(9, 91, 31);
+}
+
+.infos .more{
+    display: inline-block;
+    text-align: right;
+    border:solid 3px rgb(9, 91, 31);
+    border-radius: 5px;
+    padding:10px 15px;
+    font-family:'Britney-Regular';
+    text-decoration: none;
+    color:rgb(9, 91, 31);
+    transition: 1s;
+}
+
+.infos .more:hover{
+    background-color: rgb(9, 91, 31);
+    color:white;
+}
+
+
+.image{
+    Background-size:cover;
+    background-position:center;
+    border-radius:15px;
+}
+
+.image-1{
+    background-image:url(../img/val1.jpg);
+    height:300px;
+    transition: 0.5s;
+}
+
+
+.image-2{
+    background-image:url(../img/val2.jpg);
+    height:300px;
+}
+
+.image-3{
+    background-image:url(../img/val4.jpg);
+    height:300px;
+}
+
+/* long cards */
+.longshop{
+    display:flex;
+    margin-right: auto;
+    margin-left:auto;
+    flex-wrap: wrap;
+    gap:40px;
+    width:1200px;
+}
+
+.longcard{
+    width:calc(100% / 2 - 20px);
+    text-align:center;
+    transition: 0.5s;
+    border: solid 3px rgb(9, 91, 31);
+    box-shadow: 6px 7px 0px rgb(9, 91, 31);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color:white;
+}
+
+.longcard:hover{
+    box-shadow: 15px 15px 0px rgb(9, 91, 31);
+    color:rgb(9, 91, 31)
+}
+
+.longcard p{
+    font-family:'Britney-Regular' ;
+    font-size: 80px;
+    opacity: 90%;
+    text-shadow: 1px 2px 2px black;
+}
+
+
+.long-image{
+    Background-size:cover;
+    border-radius:10px;
+    height:200px;
+    background-position: center;
+}
+
+.long-image-1{
+    background-image:url(../img/bouffe1.jpg);
+    transition: 0.5s;
+    background-position:center;
+}
+
+
+.long-image-2{
+    background-image:url(../img/bouffe2.jpg);
+}
+
+.long-image-3{
+    background-image:url(../img/bouffe3.jpg);
+}
+
+.long-image-4{
+    background-image:url(../img/bouffe4.jpg);
+}
+
+.long-image-5{
+    background-image:url(../img/bouffe5.jpg);
+}
+
+.long-image-6{
+    background-image:url(../img/bouffe6.jpg);
+}
+
+/*CALL TO ACTION - RESERVATION*/
+
+.cta-flex{
+    display:flex;
+    gap:50px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 900px;
+}
+
+.cta-gauche{
+    width:50%;
+}
+
+
+.cta-gauche a{
+    text-decoration: none;
+    border: solid 3px rgb(9, 91, 31);
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.container-small h3{
+    font-weight: 100;
+    font-size:25px;
+    color:rgb(9, 91, 31);
+    margin-bottom:30px;
+    font-family:'Britney-Regular';
+    padding-left:20px;
+    padding-right:20px;
+    transition:1s;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cta-btn{
+        display: inline-block;
+        text-align: right;
+        border:solid 3px rgb(9, 91, 31);
+        border-radius: 5px;
+        padding:10px 15px;
+        font-family:'Britney-Regular';
+        text-decoration: none;
+        color:rgb(9, 91, 31);
+        transition: 1s;
+    }
+
+.cta-btn:hover{
+    background-color: rgb(9, 91, 31);
+    color:white;
+}
+
+
+
+.cta-droite img{
+    border-radius: 10px;
+}
+
+.footer-flex{
+    display:flex;
+    background-color: red;
+    width:50%;
+    justify-content: center;
+    border: solid 3px rgb(9, 91, 31);
+    box-shadow: 6px 7px 0px rgb(9, 91, 31);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding:20px 10px;
+
+
+
+}
+
+.foot{
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-title{
+    font-family:'Britney-Regular';
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color:rgb(9, 91, 31);
+    margin:auto;
+}
+
+.footer-item{
+    display:inline-block;
+    text-decoration: none;
+    padding-bottom:5px;
+    color:rgb(9, 91, 31);
+}
+
+.fa-brands{
+    color:rgb(9, 91, 31);
+    margin-top:10px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    
+    .nav{
+        display:inline-block;
+    }
+    
+    .card{
+        width:calc(100%/1);
+}
+    .shop{
+        display:inline-block;
+    }
+
+    .longcard{
+        width:calc(100%/1);
+    }
+
+    .longshop{
+        display:inline-block;
+        width:990px;
+        margin-right: 0;
+        margin-left:0;
+        flex-wrap: nowrap;
+}
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    
+    .nav{
+        display:inline-block;
+    }
+    
+    .card{
+        width:calc(100%/1);
+}
+    .shop{
+        display:inline-block;
+    }
+
+    .longcard{
+        width:calc(100%/1);
+    }
+
+    .longshop{
+        display:inline-block;
+        width:990px;
+        margin-right: 0;
+        margin-left:0;
+        flex-wrap: nowrap;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .nav{
+        display:inline-block;
+    }
+    
+    .card{
+    width:calc(100%/1);
+    }
+
+    .shop{
+        display:inline-block;
+    }
+
+    .longcard{
+        width:calc(100%/1);
+    }
+
+    .longshop{
+        display:inline-block;
+        width:750px;
+}
+}
